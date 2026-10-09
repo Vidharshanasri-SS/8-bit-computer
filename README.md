@@ -358,9 +358,8 @@ Every instruction uses the same Fetch Cycle (`T0` to `T2`) and the Execute Cycle
 | ----------------------- | ---------------------- |
 | Simulation              | Verified in Vivado     |
 | Hardware Test           | Verified on FPGA board |
-| LUT Usage               | TBD                    |
-| Register Usage          | TBD                    |
-| Maximum Clock Frequency | TBD                    |
+| LUT Usage               | 98                     |
+| Register Usage          | 51                     |
 
 ## Acknowledgements
 

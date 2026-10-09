@@ -330,25 +330,6 @@ Address: Opcode operand / Data
 
 Every instruction uses the same Fetch Cycle (`T0` to `T2`) and the Execute Cycles shown above.
 
-### Execution Trace
-
-| Address | Instruction | Execute Operation | ACC After |
-|---------|-------------|--------------------|-----------|
-| 0 | `INP` | ACC ← INPUT | `C9` |
-| 1 | `ROT` | ACC ← ROTATE LEFT (ACC) | `93` |
-| 2 | `ROT` | ACC ← ROTATE LEFT (ACC) | `27` |
-| 3 | `ROT` | ACC ← ROTATE LEFT (ACC) | `4E` |
-| 4 | `ROT` | ACC ← ROTATE LEFT (ACC) | `9C` |
-| 5 | `ROT` | ACC ← ROTATE LEFT (ACC) | `39` |
-| 6 | `ROT` | ACC ← ROTATE LEFT (ACC) | `72` |
-| 7 | `ROT` | ACC ← ROTATE LEFT (ACC) | `E4` |
-| 8 | `XOR 28` | ACC ← ACC XOR RAM[28] (`E4 XOR A5`) | `41` |
-| 9 | `OUT` | OUT ← ACC | `41` |
-| 10 | `HLT` | HALT | `41` |
-
-**Ciphertext `C9` → Plaintext `41`**
-
-The decrypted result matches the original plaintext.
 ```
 ```
 ## Applications

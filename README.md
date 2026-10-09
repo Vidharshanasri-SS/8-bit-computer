@@ -370,3 +370,27 @@ The decrypted result matches the original plaintext.
 - **FPGA Board:** Boolean Board
 - **FPGA Device:** `XC7S50CSGA324-1`
 - **FPGA Family:** Spartan-7
+
+## Results
+
+| Metric                  | Value                  |
+| ----------------------- | ---------------------- |
+| Simulation              | Verified in Vivado     |
+| Hardware Test           | Verified on FPGA board |
+| LUT Usage               | TBD                    |
+| Register Usage          | TBD                    |
+| Maximum Clock Frequency | TBD                    |
+
+## Acknowledgements
+
+- Xilinx / AMD for the Vivado design suite
+- Digital design and computer architecture course materials and references
+
+## Team Members
+
+* [Vidharshanasri S](https://www.linkedin.com/in/vidharshanasrisivakumar/)
+* [Sheeba Angelin N](https://www.linkedin.com/in/sheeba-angelin-n-0a7ab7380/)
+* [Harshini M](https://www.linkedin.com/in/harshini-m-997a05380/)
+
+
+

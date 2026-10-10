@@ -77,7 +77,8 @@ Each instruction is 8 bits wide: a 3-bit opcode and a 5-bit address.
 | Instruction | T-Cycle | Control Signals | Operation |
 |-------------|---------|-----------------|-----------|
 | **LDA** | T0 | `CO, MI` | PC address → MAR |
-| | T1 | `RO, II, CE` | RAM data → IR, PC increments |
+| | T1 | `RO, II` | RAM data → IR, PC increments |
+| | T2 | `CE` | PC increments |
 | | T3 | `IO, MI` | Address from IR → MAR |
 | | T4 | `RO, AI` | RAM data → Accumulator |
 | **STA** | T0 | `CO, MI` | PC address → MAR |
